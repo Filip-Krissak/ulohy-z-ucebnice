@@ -502,25 +502,25 @@
 # canvas.mainloop()
 
 # 6
-# with open('prihlaseni.txt', 'r') as subor:
-#     riadky = subor.readlines()
-# print(int(len(riadky)/2))
-# cestovne = 20
-# spolu = 0
-# vek = []
-# for i in range(int(len(riadky)/2)):
-#     temp = int(riadky[i*2+1])
-#     if temp < 15:
-#         vek.append(temp)
-# print(len(vek))
-# for i in range(int(len(riadky)/2)):
-#     temp2 = int(riadky[i*2+1])
-#     if temp2 < 15:
-#         spolu = spolu+(cestovne/2)
-#     if temp2 >= 15:
-#         spolu = spolu+cestovne
-# print(spolu)
-# print(sum(vek)/len(vek))
+with open('prihlaseni.txt', 'r') as subor:
+    riadky = subor.readlines()
+print(int(len(riadky)/2))
+cestovne = 20
+spolu = 0
+vek = []
+for i in range(int(len(riadky)/2)):
+    temp = int(riadky[i*2+1])
+    if temp < 15:
+        vek.append(temp)
+print(len(vek))
+for i in range(int(len(riadky)/2)):
+    temp2 = int(riadky[i*2+1])
+    if temp2 < 15:
+        spolu = spolu+(cestovne/2)
+    if temp2 >= 15:
+        spolu = spolu+cestovne
+print(spolu)
+print(sum(vek)/len(vek))
 
 
 
