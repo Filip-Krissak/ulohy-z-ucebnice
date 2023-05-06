@@ -501,6 +501,10 @@
 # canvas.bind('<Button-1>',kruh)
 # canvas.mainloop()
 
+# 6
+with open('prihlaseni.txt', 'r') as subor:
+    riadky = subor.readlines()
+print(riadky)
 
 
 
