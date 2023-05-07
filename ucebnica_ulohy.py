@@ -522,7 +522,35 @@
 # print(spolu)
 # print(sum(vek)/len(vek))
 
+# 7
+# import tkinter
+# canvas = tkinter.Canvas(width=500,height=500)
+# canvas.pack()
+# with open('spokojnost.txt','r') as subor:
+#     riadky = subor.readlines()
+# print(len(riadky))
+# r = 20
+# a = 0
+# n = 0
 
+# for line in riadky:
+#     if line.strip() == 'nie':
+#         a += 1
+#     elif line.strip() == 'ano':
+#         n += 1
+# spokojny = a/len(riadky)
+# nespokojny = n/len(riadky)
+# canvas.create_text(110,470,text='ano')
+# canvas.create_text(310,470,text='nie')
+# def ano():
+#     canvas.create_rectangle(100,450,120,450-(r*a))
+# def nie():
+#     canvas.create_rectangle(300,450,320,450-(r*n))
+# print(a,n)
+# print(spokojny*100,nespokojny*100)
+# ano()
+# nie()
+# canvas.mainloop()
 
 
 
